@@ -53,11 +53,3 @@ else:
 # st.pyplot(fig3)
 # 
 # st.caption('Copyright (c) 2026 - Proyek Analisis Data Pelanggan')
-
-!pip install streamlit -q
-!npm install -g localtunnel -q
-
-print("IP Public Anda:")
-!curl ipv4.icanhazip.com
-
-!streamlit run dashboard/dashboard.py & npx localtunnel --port 8501
